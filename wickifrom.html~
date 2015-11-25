@@ -31,9 +31,12 @@
 			Suchwort:
 			<label for="search">Suchfeld</label>
   			<input type="text" name="search" size="20" id="search"><br><br>
-			<input type="radio" name="language" value="de" alt="deutsche suche" checked><label> Deutsch</label><br>
-  			<input type="radio" name="language" value="en" alt="english search"><label> Englisch</label><br><br>
-  			<input type="submit" name="go" class="searchButton" value="suche auf Wikipedia" alt="suche beginnen">
+			<label for="de">Deutsch</label>
+			<input type="radio" name="language" value="de" alt="deutsche suche" id="de" checked><label> Deutsch</label><br>
+			<label for="en">English</label>
+  			<input type="radio" name="language" value="en" alt="english search" id="en"><label> Englisch</label><br><br>
+			<label for="submit">Suche</label>
+  			<input type="submit" name="go" class="searchButton" id="submit" value="suche auf Wikipedia" alt="suche beginnen">
 			</div>
 		</form> 
 	</div>	

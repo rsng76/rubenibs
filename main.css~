@@ -1,6 +1,10 @@
 body {
 	margin:0px;
 }
+fieldset {
+    border: none;
+    padding: 0;
+}
 .nav {
 	padding:20px;
 	height:auto;
@@ -26,7 +30,7 @@ body {
 }
 
 .jumbotron {
-  background-image:url('test.jpg');
+  background-image:url('test.png');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;

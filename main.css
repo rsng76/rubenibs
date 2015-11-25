@@ -1,6 +1,10 @@
 body {
 	margin:0px;
 }
+fieldset {
+    border: none;
+    padding: 0;
+}
 .nav {
 	padding:20px;
 	height:auto;

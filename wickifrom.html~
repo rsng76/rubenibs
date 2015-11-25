@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
 <meta charset="UTF-8"> 
 
@@ -28,13 +28,12 @@
 		<form action="http://www.wikipedia.org/search-redirect.php" method="get" target="_blank">
 			<div class="form">
 			<h3>Wickipedia Suche</h3>
-			Suchwort:
 			<label for="search">Suchfeld</label>
   			<input type="text" name="search" size="20" id="search"><br><br>
+			<input type="radio" name="language" value="de" alt="deutsche suche" id="de" checked><br>
 			<label for="de">Deutsch</label>
-			<input type="radio" name="language" value="de" alt="deutsche suche" id="de" checked><label> Deutsch</label><br>
+  			<input type="radio" name="language" value="en" alt="english search" id="en"><br><br>
 			<label for="en">English</label>
-  			<input type="radio" name="language" value="en" alt="english search" id="en"><label> Englisch</label><br><br>
 			<label for="submit">Suche</label>
   			<input type="submit" name="go" class="searchButton" id="submit" value="suche auf Wikipedia" alt="suche beginnen">
 			</div>

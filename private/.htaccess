@@ -1,0 +1,6 @@
+#.htaccess fuer user rsng76
+AuthType Basic
+
+AuthName "Private section"
+AuthUserFile /~rsng76/private/.htpasswd
+require user rsng76

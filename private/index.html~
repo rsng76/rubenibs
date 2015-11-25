@@ -1,0 +1,30 @@
+<!--
+-private index.html
+-->
+
+<HTML>
+<HEAD>
+	<TITLE>rsng76</TITLE>
+	<link rel="stylesheet" href="private.css">
+</HEAD>
+<BODY>
+
+<div>
+	<h1>Privater Bereich</h1>
+	<small>
+		Back to 
+		<a HREF="../index.html">Home</a>
+	</small>
+</div>
+
+<div class="module">
+	<div class="container">
+		<h2>DNA und Proteinsequenzen</h2>
+		<li>
+			<a HREF="aufgabe1.txt">Aufgabe 1</a>
+		</li>
+	</div>
+</div>
+
+</BODY>
+</HTML>

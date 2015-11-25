@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8"> 
+
+  <head>
+	<TITLE>rsng76</TITLE>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="index.html">Home</a></li>
+	  <li><a href="studium.html">Studium</a></li>
+	  <li><a href="wickifrom.html">Wicki search</a></li>
+        </ul>
+        <ul class="pull-right">
+	  <li><a href="private/index.html">Private</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+
+	<div class="impressum">
+		<div class="container">
+			<h3>Impressum</h3><br>
+			<h4>Anschrift:</h4>
+			<address>Ruben Steinegger<br>Ernst-Toller-Weg 2<br>35394 Gießen<br>E-mail: <a href="mailto:ruben.steinegger@mni.thm.de">ruben.steinegger@mni.thm.de</a></address>
+			<br><br>
+			<p>Diese Website ist lediglich zu Lernzwecken, innerhalb des Hochschulmoduls "Internetbasierte Systeme und Rechnernetze" der <a href="http://www.thm.de">Techneischen Hochschule Mittelhessen</a> Standort Gießen, entstanden.</p>
+		</div>
+	</div>
+
+</body>
+</html>

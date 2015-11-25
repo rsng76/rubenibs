@@ -1,0 +1,125 @@
+body {
+	margin:0px;
+}
+.nav {
+	padding:20px;
+	height:auto;
+	list-style: none;
+}
+.nav li {
+	display: inline;
+}
+.pull-right {
+	float: right!important;
+}
+
+.pull-left {
+	float: left!important;
+}
+.nav a {
+	color: #5a5a5a;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right:10px;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.jumbotron {
+  background-image:url('test.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotronStudium {
+  background-image:url('thm_mni_logo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotronStudium .container {
+  position: relative;
+  top:100px;
+}
+.jumbotronStudium h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotronStudium p {
+  font-size: 20px;
+  color: #fff;
+}
+.thm-module {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.thm-module h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.thm-module p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.wicki-form {
+	height: auto;
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #efefef;
+    	border-bottom: 1px solid #dbdbdb;
+}
+
+.wicki-from .form{
+	float:left;
+}
+
+.wicki-form img{
+	float: right;
+}
+
+.impressum {
+	background-color: #f7f7f7;
+	height: 300px;
+}
+.impressum .container{
+	margin-left:30px;
+}
+

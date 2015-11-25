@@ -28,9 +28,9 @@
 		<form action="http://www.wikipedia.org/search-redirect.php" method="get" target="_blank">
 			<div class="form">
 			<h1>Wickipedia Suche</h1><br>
+			<fieldset display="none"><legend></legend>
 			<label for="search">Suchfeld:</label>
   			<input autofocus type="text" name="search" size="20" id="search"><br><br>
-			<fieldset display="none">
 			<input type="radio" name="language" value="de" alt="deutsche suche" id="de" checked>
 			<label for="de">Deutsch</label><br>
   			<input type="radio" name="language" value="en" alt="english search" id="en">

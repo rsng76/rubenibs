@@ -28,10 +28,10 @@
 		<form action="http://www.wikipedia.org/search-redirect.php" method="get" target="_blank">
 			<div class="form">
 			<h3>Wickipedia Suche</h3>
-			Suchwort:
+			<label>Suchwort:</label>
   			<input type="text" name="search" size="20" alt="suchfeld"><br><br>
-			<input type="radio" name="language" value="en" alt="deutsche suche" checked> English<br>
-  			<input type="radio" name="language" value="de" alt="english search"> Deutsch<br><br>
+			<input type="radio" name="language" value="de" alt="deutsche suche" checked><label> Deutsch</label><br>
+  			<input type="radio" name="language" value="en" alt="english search"><label> Englisch</label><br><br>
   			<input type="submit" name="go" class="searchButton" value="suche auf Wikipedia" alt="suche beginnen">
 			</div>
 		</form> 

@@ -40,6 +40,14 @@
 	<a href="https://www.codecademy.com/users/rsng76/achievements" target="_blank">See my codeacademy achievements</a>
       </div>
     </div> 
+
+	<div class="ccd">
+		<div class="container">
+		<h1>GitHub Links</h1>
+		<p>https://github.com/rsng76/rubenibs/pull/1</p>
+		<p>https://github.com/Abroxas/Homepage/pull/1</p>
+		</div>
+	</div>
     
     <div class="learn-more">
 	  <div class="container">

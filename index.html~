@@ -36,16 +36,19 @@
     
     <div class="ccd">
       <div class="container">
-	<img src="ccd.png">
-	<a href="https://www.codecademy.com/users/rsng76/achievements" target="_blank" alt="Codeacademy Logo, bei dem das Wort code eingerahmt und das c von cademy unterstrichen ist.">See my codeacademy achievements</a>
+	<img src="ccd.png" alt="Codeacademy Logo, bei dem das Wort code eingerahmt und das c von cademy unterstrichen ist."><br>
+	<ul><li><a href="https://www.codecademy.com/users/rsng76/achievements" target="_blank">See my codeacademy achievements</a></li></ul>
       </div>
     </div> 
 
-	<div class="ccd">
+	<div class="github">
 		<div class="container">
-		<h1>GitHub Links</h1>
-		<p>https://github.com/rsng76/rubenibs/pull/1</p>
-		<p>https://github.com/Abroxas/Homepage/pull/1</p>
+		<h1>GitHub/Cloudcontrol Links</h1>
+		<ul>
+			<li><a href="https://github.com/rsng76/rubenibs/pull/1" targte="_blank">Partner pull request </a></li>
+			<li><a href="https://hochmuthibs.cloudcontrolled.com" targte="_blank">Partner website </a></li>
+			<li><a href="https://github.com/Abroxas/Homepage/pull/1" target="_blank">Mein pull request</a></li>
+		</ul>
 		</div>
 	</div>
     
@@ -65,7 +68,7 @@
 		<div class="col-md-4">
 			<h3>Impressum</h3>
 			<p>Ruben Steinegger<br>35394 Gießen<br>Alle Rechte vorbehalten.</p>
-			<p><a href="impressum.html">Siehe vollständiges Impressum</a></p>
+			<p><a href="impressum.html">Siehe vollständiges Impressum</a></p>		
 		  </div>
 	    </div>
 	  </div>

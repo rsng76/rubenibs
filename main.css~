@@ -130,3 +130,6 @@ fieldset {
 	
 	padding-bottom:30px;
 }
+.github{
+	background-color: #d7d7d7;
+}

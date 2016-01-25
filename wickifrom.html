@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 
 <meta charset="UTF-8"> 
 
@@ -15,7 +15,8 @@
         <ul class="pull-left">
           <li><a href="index.html">Home</a></li>
 	  <li><a href="studium.html">Studium</a></li>
-	  <li><a href="wickifrom.html">Wicki search</a></li>
+	  <li><a><big>Wicki search</big></a></li>
+	  <li><a href="ARSnovaStatistics.html">ARSnova Statistics Web-App</a></li>
         </ul>
         <ul class="pull-right">
 	  <li><a href="private/index.html">Private</a></li>
@@ -24,25 +25,17 @@
     </div>
 
 	<div class="wicki-form">
-		<img src="wicki-logo.png" alt="Wikipedia Logo">
+		<img src="wicki-logo.png" >
 		<form action="http://www.wikipedia.org/search-redirect.php" method="get" target="_blank">
 			<div class="form">
-			<h1>Wikipedia Suche</h1><br>
-			<fieldset><legend></legend>
-			<label for="search">Suchfeld:</label>
-  			<input autofocus type="text" name="search" size="20" id="search"><br><br>
-			<input type="radio" name="language" value="de" alt="deutsche suche" id="de" checked>
-			<label for="de">Deutsch</label><br>
-  			<input type="radio" name="language" value="en" alt="english search" id="en">
-			<label for="en">Englisch</label><br>
-			</fieldset>
-  			<input type="submit" name="go" class="searchButton" id="submit" value="artikel suche" alt="artikel suche">
-			<input type="submit" name="fulltext" class="searchButton" id="submit" value="volltext suche" alt="volltext suche">
+			<h3>Wickipedia Suche</h3>
+			Suchwort:
+  			<input type="text" name="search" size="20" ><br><br>
+			<input type="radio" name="language" value="en"> English<br>
+  			<input type="radio" name="language" value="de" > Deutsch<br><br>
+  			<input type="submit" name="go" class="searchButton" value="suche auf Wikipedia">
 			</div>
 		</form> 
-	</div>
-	<div>
-		<a href="http://wave.webaim.org/report#/http://rubenibs.cloudcontrolled.com/wickifrom.html"> <img src="wcag2AAA.gif" alt="WC3 AAA Logo"> </a>
-	</div>
+	</div>	
 </body>
 </html>

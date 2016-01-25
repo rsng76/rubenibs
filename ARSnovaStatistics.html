@@ -9,6 +9,10 @@
     
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="main.css">
+	<script src="jquery-1.12.0.min.js"></script>
+	<script language="javascript" type="text/javascript" src="ARSnovaStatistics.js"></script>
+	<script language="javascript" type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
     
   </head>
 
@@ -16,10 +20,10 @@
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-          <li><a><big>Home</big></a></li>
+          <li><a href="index.html">Home</a></li>
 	  <li><a href="studium.html">Studium</a></li>
 	  <li><a href="wickifrom.html">Wicki search</a></li>
-	  <li><a href="ARSnovaStatistics.html">ARSnova Statistics Web-App</a></li>
+	  <li><a><big>ARSnova Statistics Web-App</big></a></li>
         </ul>
         <ul class="pull-right">
 	  <li><a href="private/index.html">Private</a></li>
@@ -28,12 +32,34 @@
       </div>
     </div>
 
-    <div class="jumbotron">
+		
       <div class="container">
-        <h1>Ruben Steinegger</h1>
-        <p>This is my website for IBS</p>
+        <h1>ARSnova</h1>
+        <p>Aktuelle Statistiken von <a target="_blank" href="https://arsnova.eu/mobile/">ARSnova</a></p>
       </div>
-    </div> 
+ 
+	
+    <div id="appDiv">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h4>ARSnova Questions</h4>
+				<canvas id="questionChart"></canvas>
+			</div>
+			<div class="col-md-6">
+				<h4>ARSnova Answers</h4>
+				<canvas id="answerChart"></canvas>
+			</div>
+			<div class="col-md-6">
+				<h4>ARSnova Sessions</h4>
+				<canvas id="sessionChart"></canvas>
+			</div>
+			<div class="col-md-6">
+				<h4>ARSnova Users</h4>
+				<canvas id="userChart"></canvas>
+			</div>
+    </div>
+	</div>
     
     <div class="learn-more">
 	  <div class="container">
@@ -50,8 +76,8 @@
 		  </div>
 		<div class="col-md-4">
 			<h3>Impressum</h3>
-			<p>Ruben Steinegger<br>35394 Gie√üen<br>Alle Rechte vorbehalten.</p>
-			<p><a href="impressum.html">Siehe vollst√§ndiges Impressum</a></p>
+			<p>Ruben Steinegger<br>35394 Gieﬂen<br>Alle Rechte vorbehalten.</p>
+			<p><a href="impressum.html">Siehe vollst‰ndiges Impressum</a></p>
 		  </div>
 	    </div>
 	  </div>

@@ -1,10 +1,6 @@
 body {
 	margin:0px;
 }
-fieldset {
-    border: none;
-    padding: 0;
-}
 .nav {
 	padding:20px;
 	height:auto;
@@ -119,6 +115,15 @@ fieldset {
 	float: right;
 }
 
+#appDiv {
+    width: 80%;
+    border: 1px solid #BBB;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px #AAA;
+    padding: 20px 40px 40px;
+    margin: 50px auto;
+}
+
 .impressum {
 	background-color: #f7f7f7;
 	height: 300px;
@@ -126,10 +131,4 @@ fieldset {
 .impressum .container{
 	margin-left:30px;
 }
-.ccd{
-	
-	padding-bottom:30px;
-}
-.github{
-	background-color:#CAEDF8;
-}
+
